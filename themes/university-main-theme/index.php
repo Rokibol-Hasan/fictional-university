@@ -1,8 +1,10 @@
 <?php
-
+get_header();
 while (have_posts()) {
     the_post(); ?>
-    <h2 style=""> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <h4 style=""> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
     <p> <?php the_content(); ?> </p>
     <hr>
-<?php } ?>
+<?php } 
+get_footer( );
+?>

@@ -1,0 +1,1 @@
+<h4>Global footer</h4>
