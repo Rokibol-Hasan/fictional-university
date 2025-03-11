@@ -6,5 +6,5 @@ while (have_posts()) {
     <p> <?php the_content(); ?> </p>
     <hr>
 <?php } 
-get_footer( );
+get_footer();
 ?>

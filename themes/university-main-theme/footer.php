@@ -1,1 +1,5 @@
-<h4>Global footer</h4>
+<p>This is the footer</p>
+<?php wp_footer(); ?>
+</body>
+
+</html>
